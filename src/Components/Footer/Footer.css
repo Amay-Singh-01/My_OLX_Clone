@@ -1,0 +1,33 @@
+.footerParentDiv {
+  width: 100vw;
+  font-family: Georgia;
+ 
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebeeef;
+  padding: 16px;
+  
+  
+}
+.footerParentDiv .content .heading {
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #070b7d;
+  color: rgb(255, 255, 255);
+}
+
+.footerParentDiv .footer p {
+  margin: 0;
+  align-items: center;
+}
